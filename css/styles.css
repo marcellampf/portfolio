@@ -1,0 +1,37 @@
+/* Estilize o corpo (body) */
+body {
+    color: #fdf0d5;
+    font-family: 'Calibri Light', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+/* Estilize o cabeçalho (header) */
+header {
+    background-color: transparent; 
+    color: #fdf0d5; 
+    text-align: right;
+    padding: 0; 
+    margin-right: auto;
+    max-width: 80%;
+}
+/* Estilize as seções (section) */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: right;
+}
+/* Estilize os títulos h1 e h2 */
+h1 {
+    font-family: 'Calibri Light', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+}
+h2 {
+    font-size: 100%;
+}
+
+
+/*colors:  e63946
+f1faee
+a8dadc
+457b9d
+1d3557
