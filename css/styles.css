@@ -1,37 +1,87 @@
-/* Estilize o corpo (body) */
-body {
-    color: #fdf0d5;
-    font-family: 'Calibri Light', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-
-}
-/* Estilize o cabeçalho (header) */
+/* Estilo para o cabeçalho transparente */
 header {
-    background-color: transparent; 
-    color: #fdf0d5; 
-    text-align: right;
-    padding: 0; 
-    margin-right: auto;
-    max-width: 80%;
-}
-/* Estilize as seções (section) */
-section {
-    max-width: 800px;
-    margin: 0 auto;
-    margin-top: 20px;
-    text-align: right;
-}
-/* Estilize os títulos h1 e h2 */
-h1 {
-    font-family: 'Calibri Light', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 300%;
-}
-h2 {
-    font-size: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
 }
 
+/* Estilo para os botões de contato e links sociais no topo */
+.top-bar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
 
-/*colors:  e63946
-f1faee
-a8dadc
-457b9d
-1d3557
+/* Estilo para o link de contato separado */
+.contact-link {
+    margin-right: 20px; /* Mantenha a margem à direita para separá-lo dos outros botões */
+    color: #333;
+    text-decoration: none;
+}
+
+/* Restante do seu CSS... */
+
+  
+  /* Estilo para o nome e resumo */
+  .profile {
+    margin-top: 120px;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .profile h1 {
+    font-family: 'Dom Casual','Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .profile p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para as soft skills */
+  .skills {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .skills h2 {
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+  }
+  
+  .skills ul {
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .skills li {
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para os botões de redirecionamento */
+  .buttons {
+    font-family: 'Calibri','Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .buttons a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #1d3557;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
